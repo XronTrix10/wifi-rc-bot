@@ -16,7 +16,7 @@ int speedCar = 1023; // 400 - 1023.
 int speed_Coeff = 3;
 
 const char *ssid = "RC_PowerCAR"; // Wifi SSID
-const char *psk = "password";     // Wifi Password
+const char *psk = "connect_me";     // Wifi Password
 
 ESP8266WebServer server(80);
 

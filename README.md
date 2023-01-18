@@ -13,7 +13,16 @@
 ## Additional Board Manager URL for NodeMCU: 
     http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-[Android app](https://play.google.com/store/apps/details?id=com.bluino.esp8266wifirobotcar&hl=en_US&gl=US) to control the car
+## Default Wifi Station credentials of NodeMCU:
+
+SSID:
+
+    RC_PowerCAR
+Password:
+
+    connect_me
+
+## [Android app](https://play.google.com/store/apps/details?id=com.bluino.esp8266wifirobotcar&hl=en_US&gl=US) to control the car
 
 ## Pin Diagram
 
