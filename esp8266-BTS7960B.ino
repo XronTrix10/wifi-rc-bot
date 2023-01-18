@@ -107,19 +107,6 @@ void goLeft()
 
 void goAheadRight()
 {
-
-  analogWrite(RPWM_1, speedCar);
-  analogWrite(LPWM_1, 0);
-
-  analogWrite(RPWM_2, speedCar / speed_Coeff);
-  analogWrite(LPWM_2, 0);
-
-  digitalWrite(EN, HIGH);
-}
-
-void goAheadLeft()
-{
-
   analogWrite(RPWM_1, speedCar / speed_Coeff);
   analogWrite(LPWM_1, 0);
 
@@ -129,26 +116,35 @@ void goAheadLeft()
   digitalWrite(EN, HIGH);
 }
 
+void goAheadLeft()
+{
+  analogWrite(RPWM_1, speedCar);
+  analogWrite(LPWM_1, 0);
+
+  analogWrite(RPWM_2, speedCar / speed_Coeff);
+  analogWrite(LPWM_2, 0);
+
+  digitalWrite(EN, HIGH);
+}
+
 void goBackRight()
 {
-
   analogWrite(RPWM_1, 0);
-  analogWrite(LPWM_1, speedCar);
+  analogWrite(LPWM_1, speedCar / speed_Coeff);
 
   analogWrite(RPWM_2, 0);
-  analogWrite(LPWM_2, speedCar / speed_Coeff);
+  analogWrite(LPWM_2, speedCar);
 
   digitalWrite(EN, HIGH);
 }
 
 void goBackLeft()
 {
-
   analogWrite(RPWM_1, 0);
-  analogWrite(LPWM_1, speedCar / speed_Coeff);
+  analogWrite(LPWM_1, speedCar);
 
   analogWrite(RPWM_2, 0);
-  analogWrite(LPWM_2, speedCar);
+  analogWrite(LPWM_2, speedCar / speed_Coeff);
 
   digitalWrite(EN, HIGH);
 }
