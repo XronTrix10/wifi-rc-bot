@@ -10,6 +10,9 @@
 - Powersupply according to Motors
 - 5v Power supply for Nodemcu and BTS7960B
 
+## Additional Board Manager URL for NodeMCU: 
+    http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 [Android app](https://play.google.com/store/apps/details?id=com.bluino.esp8266wifirobotcar&hl=en_US&gl=US) to control the car
 
 ## Pin Diagram
