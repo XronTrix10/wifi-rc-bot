@@ -30,9 +30,9 @@ Password:
 
 |NodeMCU | BTS7960B  | Details
 | :----- | :---------- | :------
-|**D3** | **R_IS & L_IS (Both Drivers)** | Side Current Output (Active Low) 
-|**D4** | **R_EN & L_EN (Both Drivers)** | Rotation Enable Pins (Active High)   
-|**D5** | **LPWM (1st BTS7960B)**  | 1st BTS7960B Forward Rotation PWM
-|**D6** | **RPWM (1st BTS7960B)** | 1st BTS7960B Reverse Rotation PWM
-|**D7** | **LPWM (2nd BTS7960B)**  | 2nd BTS7960B Forward Rotation PWM
-|**D8** | **RPWM (2nd BTS7960B)** | 2nd BTS7960B Reverse Rotation PWM
+|**D3** (Optional) | **R_IS & L_IS (Both Drivers)** | Side Current Output (Active Low) 
+|**D4** (Required) | **R_EN & L_EN (Both Drivers)** | Rotation Enable Pins (Active High)   
+|**D5** (Required) | **LPWM (1st BTS7960B)**  | 1st BTS7960B Forward Rotation PWM
+|**D6** (Required) | **RPWM (1st BTS7960B)** | 1st BTS7960B Reverse Rotation PWM
+|**D7** (Required) | **LPWM (2nd BTS7960B)**  | 2nd BTS7960B Forward Rotation PWM
+|**D8** (Required) | **RPWM (2nd BTS7960B)** | 2nd BTS7960B Reverse Rotation PWM
